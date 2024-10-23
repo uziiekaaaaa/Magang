@@ -1,0 +1,282 @@
+<html>
+ <head>
+  <title>
+   Info Mudik
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .header {
+            background-color: #ffffff;
+            padding: 10px 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .header img {
+            height: 50px;
+        }
+        .nav {
+            display: flex;
+            gap: 20px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+        .container {
+            padding: 20px;
+        }
+        .table-container {
+            background-color: #f8d7da;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .table-container h2 {
+            margin-top: 0;
+        }
+        .search-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .search-container input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 200px;
+        }
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .table th, .table td {
+            padding: 15px;
+            text-align: left;
+        }
+        .table th {
+            background-color: #f8d7da;
+            color: #333;
+        }
+        .table td {
+            background-color: #ffffff;
+            border-bottom: 1px solid #f8d7da;
+        }
+        .table td img {
+            width: 100px;
+            height: auto;
+            border-radius: 5px;
+        }
+        .table td .btn {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .footer {
+            background-color: #ffffff;
+            padding: 10px 20px;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="header">
+   <img alt="Logo" height="50" src="https://storage.googleapis.com/a1aa/image/PrRUce9pKu1ic6c9ctgDaVoFasPaGbNAIj3Vcxj8c6RiZx0JA.jpg" width="150"/>
+   <div class="nav">
+    <a href="#">
+     Beranda
+    </a>
+    <a href="#">
+     Panduan Mudik
+    </a>
+    <a href="#">
+     CCTV
+    </a>
+    <a href="#">
+     Info Penting
+    </a>
+    <a href="#">
+     Infografis
+    </a>
+    <a href="#">
+     Wisata
+    </a>
+    <a href="#">
+     Kontak
+    </a>
+   </div>
+  </div>
+  <div class="container">
+   <div class="table-container">
+    <div class="search-container">
+     <div>
+      <label for="entries">
+       Show
+      </label>
+      <select id="entries">
+       <option value="10">
+        10
+       </option>
+       <option value="25">
+        25
+       </option>
+       <option value="50">
+        50
+       </option>
+       <option value="100">
+        100
+       </option>
+      </select>
+      entries
+     </div>
+     <div>
+      <label for="search">
+       Search:
+      </label>
+      <input id="search" placeholder="Cari Data..." type="text"/>
+     </div>
+    </div>
+    <table class="table">
+     <thead>
+      <tr>
+       <th>
+        NO
+       </th>
+       <th>
+        NAMA LOKASI | ALAMAT
+       </th>
+       <th>
+        TELEPON
+       </th>
+       <th>
+        LINK MAP
+       </th>
+       <th>
+        FOTO
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td>
+        1
+       </td>
+       <td>
+        <strong>
+         Posko Mudik Gombel
+        </strong>
+        <br/>
+        Jl. Tanah Putih II, Ngesrep, Kec. Banyumanik, Kota Semarang, Jawa Tengah 50261
+        <br/>
+        <strong>
+         Fasilitas :
+        </strong>
+        Dapur Umum, Tenda, Toilet, Tempat Ibadah, Free Buka &amp; Sahur, Towing, Pos Kesehatan, Pos Komunikasi
+       </td>
+       <td>
+        -
+       </td>
+       <td>
+        <a class="btn" href="#">
+         Buka Map
+        </a>
+        <br/>
+        Jarak : 6.32 km
+       </td>
+       <td>
+        <img alt="Image of Posko Mudik Gombel" height="100" src="https://storage.googleapis.com/a1aa/image/gCTf8bpEB23XDa5IfEqQPAeOMMz56qF8kamdEDyd3NuMmFTnA.jpg" width="100"/>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        2
+       </td>
+       <td>
+        <strong>
+         Posko Mudik Tugu Muda
+        </strong>
+        <br/>
+        Sekayu, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50132
+        <br/>
+        <strong>
+         Fasilitas :
+        </strong>
+        Pos Kesehatan, Tempat Istirahat, Toilet, Tempat Ibadah
+       </td>
+       <td>
+        -
+       </td>
+       <td>
+        <a class="btn" href="#">
+         Buka Map
+        </a>
+        <br/>
+        Jarak : 0.42 km
+       </td>
+       <td>
+        <img alt="Image of Posko Mudik Tugu Muda" height="100" src="https://storage.googleapis.com/a1aa/image/Q6HrdYdLTk6SKNPrfI1UZGXNVtfwOvrf9bcmalkXl2emMLmOB.jpg" width="100"/>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        3
+       </td>
+       <td>
+        <strong>
+         Posko Mudik Simpang Lima Kota Semarang
+        </strong>
+        <br/>
+        Jl. Simpang Lima 24, Mugassari, Kec. Semarang Sel., Kota Semarang, Jawa Tengah 50249
+        <br/>
+        <strong>
+         Fasilitas :
+        </strong>
+        Pos Kesehatan, Tempat Istirahat, Toilet, Tempat Ibadah, Pos Komunikasi
+       </td>
+       <td>
+        -
+       </td>
+       <td>
+        <a class="btn" href="#">
+         Buka Map
+        </a>
+        <br/>
+        Jarak : 1.21 km
+       </td>
+       <td>
+        <img alt="Image of Posko Mudik Simpang Lima Kota Semarang" height="100" src="https://storage.googleapis.com/a1aa/image/yOcePpNPCQTdDSk15DhJeerUpz8fNMPwwUymkAfdeTo0xsY6E.jpg" width="100"/>
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </div>
+  </div>
+  <div class="footer">
+   <div>
+    27°C Cerah
+   </div>
+   <div>
+    Search
+   </div>
+  </div>
+ </body>
+</html>
