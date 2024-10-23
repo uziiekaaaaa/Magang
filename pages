@@ -1,0 +1,213 @@
+<html>
+ <head>
+  <title>
+   Info Mudik 2024
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .header {
+            background: linear-gradient(to right, #d16ba5, #86a8e7, #5ffbf1);
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .header img {
+            height: 50px;
+        }
+        .header a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            margin-right: 20px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .table-container {
+            border: 2px dashed #007bff;
+            padding: 20px;
+            background-color: #e0e7ff;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        table th {
+            background-color: #ffccd5;
+            color: #6c757d;
+        }
+        table td img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+        .search-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .search-container input {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .search-container select {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .btn {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .jarak {
+            margin-top: 5px;
+            font-size: 14px;
+            color: #6c757d;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="header">
+   <img alt="Info Mudik 2024 Logo" height="50" src="https://storage.googleapis.com/a1aa/image/s1I7uTZKFAoKBN3vZ8GjDtMIHbT4eTvXYpwFbYtQ873Kix0JA.jpg" width="100"/>
+   <a href="#">
+    Beranda
+   </a>
+  </div>
+  <div class="container">
+   <div class="table-container">
+    <div class="search-container">
+     <div>
+      Show
+      <select>
+       <option value="10">
+        10
+       </option>
+       <option value="25">
+        25
+       </option>
+       <option value="50">
+        50
+       </option>
+       <option value="100">
+        100
+       </option>
+      </select>
+      entries
+     </div>
+     <div>
+      Search:
+      <input placeholder="Cari Data..." type="text"/>
+     </div>
+    </div>
+    <table>
+     <thead>
+      <tr>
+       <th>
+        NO
+       </th>
+       <th>
+        KELURAHAN
+       </th>
+       <th>
+        KECAMATAN
+       </th>
+       <th>
+        LINK MAP
+       </th>
+       <th>
+        FOTO
+       </th>
+      </tr>
+     </thead>
+     <tbody>
+      <tr>
+       <td>
+        1
+       </td>
+       <td>
+        KELURAHAN GEDAWANG
+       </td>
+       <td>
+        KECAMATAN BANYUMANIK
+       </td>
+       <td>
+        <button class="btn">
+         Buka Map
+        </button>
+        <div class="jarak">
+         Jarak: 5 km
+        </div>
+       </td>
+       <td>
+        <img alt="Image of Kelurahan Gedawang" height="100" src="https://storage.googleapis.com/a1aa/image/qfKTg0GvLCUKIa1vGUenkcWIhtVJ4wTGrCRlGu3Bz60WEjpTA.jpg" width="100"/>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        2
+       </td>
+       <td>
+        KELURAHAN PUDAKPAYUNG
+       </td>
+       <td>
+        KECAMATAN BANYUMANIK
+       </td>
+       <td>
+        <button class="btn">
+         Buka Map
+        </button>
+        <div class="jarak">
+         Jarak: 10 km
+        </div>
+       </td>
+       <td>
+        <img alt="Image of Kelurahan Pudakpayung" height="100" src="https://storage.googleapis.com/a1aa/image/TCji02Oj7AZYDl1Aj0ZL5NetKvrGOdKVyCAhk1sVGTTMix0JA.jpg" width="100"/>
+       </td>
+      </tr>
+      <tr>
+       <td>
+        3
+       </td>
+       <td>
+        KELURAHAN JABUNGAN
+       </td>
+       <td>
+        KECAMATAN BANYUMANIK
+       </td>
+       <td>
+        <button class="btn">
+         Buka Map
+        </button>
+        <div class="jarak">
+         Jarak: 15 km
+        </div>
+       </td>
+       <td>
+        <img alt="Image of Kelurahan Jabungan" height="100" src="https://storage.googleapis.com/a1aa/image/iE2iFtKeGC0oMau58dKhz7dNmeTitwP3nf229ESZztoyIGTnA.jpg" width="100"/>
+       </td>
+      </tr>
+     </tbody>
+    </table>
+   </div>
+  </div>
+ </body>
+</html>
